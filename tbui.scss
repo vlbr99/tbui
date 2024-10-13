@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_href {
+    color: black;
+    text-decoration: none;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    img {
+        width: 60px;
+    }
+}
+
+.hf_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        img {
+            width: 25px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+.warm {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border: 1px solid gainsboro;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding: 20px;
+    margin: 30px auto;
+
+    img {
+        width: 60px;
+    }
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 95%;
+    max-width: 800px;
+
+    label {
+        position: absolute;
+        left: 40px;
+        top: -12px;
+        background-color: white;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        border: 0;
+        border-radius: 50px;
+    }
+}
+
+.fof {
+    a {
+        text-decoration: none;
+        color: royalblue;
+    }
+}
+
+.card {
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    .s_p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h3,
+    p {
+        padding: 10px;
+    }
+
+    img {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+}
+
+.terms {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+    h1,
+    h2,
+    h3 {
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    a {
+        color: #007BFF;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul {
+        list-style: disc;
+        margin-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
+
+.state {
+    width: 95%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 0;
+
+    .state_buttons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        button {
+            width: 45%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width:1440px) {
+    footer {
+        flex-direction: column;
+        gap: 30px;
+
+        ul {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    header {
+        ul {
+            display: none !important;
+        }
+
+        h1 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    footer {
+        ul {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .state {
+        .state_buttons {
+            flex-direction: column;
+
+            button {
+                width: 95%;
+            }
+        }
+    }
+}
