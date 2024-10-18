@@ -1,0 +1,80 @@
+.standard {
+    box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(25, 28, 33, 0.02), 0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+}
+
+.aesthetic {
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.demure {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.jubilaton {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.derek {
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+        0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+        0px 3px 3px -1.5px rgb(0 0 0 / 0.06),
+        0px 6px 6px -3px rgb(0 0 0 / 0.06),
+        0px 12px 12px -6px rgb(0 0 0 / 0.06),
+        0px 24px 24px -12px rgb(0 0 0 / 0.06);
+}
+
+.sprightly {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.euphonious {
+    box-shadow: 0px 10px 1px rgba(221, 221, 221, 1), 0 10px 20px rgba(204, 204, 204, 1);
+}
+
+.nimble {
+    box-shadow: 4.0px 8.0px 8.0px rgba(0, 0, 0, 0.38);
+}
+
+.next {
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
+}
+
+.champagne {
+    box-shadow: inset -12px -8px 40px #46464620;
+}
+
+.warm {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.intense {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.subtle {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.ragnarok {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.sleek {
+    box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
+}
+
+.studydesk {
+    box-shadow: 0px 4px 16px rgba(17, 17, 26, 0.1), 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1);
+}
+
+.stigltz {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.brutal {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.intense {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}

@@ -1,0 +1,70 @@
+.radius,
+.grow,
+.shrink,
+.grow_radius,
+.shrink_radius,
+.radius_mini,
+.grow_radius_mini,
+.shrink_radius_mini,
+.shrink_grow,
+.grow_shrink {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.radius:hover {
+  border-radius: 50px;
+}
+.radius_mini:hover {
+  border-radius: 12px;
+}
+.grow:hover {
+  transform: scale(1.05);
+}
+.shrink:hover {
+  transform: scale(0.95);
+}
+.grow_radius:hover {
+  transform: scale(1.05);
+  border-radius: 50px;
+}
+.shrink_radius:hover {
+  transform: scale(0.95);
+  border-radius: 50px;
+}
+.grow_radius_mini:hover {
+  transform: scale(1.05);
+  border-radius: 12px;
+}
+.shrink_radius_mini:hover {
+  transform: scale(0.95);
+  border-radius: 12px;
+}
+.shrink_grow:hover {
+  animation: sg 0.3s linear;
+}
+
+.grow_shrink:hover {
+  animation: gs 0.3s linear;
+}
+@keyframes sg {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes gs {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
